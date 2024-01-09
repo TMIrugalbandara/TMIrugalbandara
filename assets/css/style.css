@@ -7,12 +7,12 @@
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
   --color-subtitle: #f9004d;
-  --background-color-1: linear-gradient(145deg, #272d39, #23272b);
+  --background-color-1: linear-gradient(145deg, #122344, #001c35);
   --background-color-2: #282221;
-  --shadow-1: 10px 10px 19px #1c1e22,
-        -10px -10px 19px #262a2e;
-  --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
-  --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  --shadow-1: 10px 10px 19px #010a1b,
+        -10px -10px 19px #020f1d;
+  --shadow-2: inset 21px 21px 19px #0a1e3c, inset -21px -21px 19px #04142c;
+  --inner-shadow: 1px 4px 2px -3px rgba(5, 7, 58, 0.7) inset, -1px -3px 3px -2px rgba(6, 11, 50, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
   --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
@@ -5228,7 +5228,7 @@ ul.slick-dots {
       transition: var(--transition); }
 
 .background-primary {
-  background: #212428; }
+  background: #233955; }
 
 .mt-dec-50 {
   margin-top: -50px !important; }
@@ -7806,7 +7806,7 @@ xclip
     Header Area Styles 
 -----------------------------*/
 body.template-color-1 {
-  background-color: #212428; }
+  background-color: #020b19; }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -11425,6 +11425,24 @@ div#featured-project-carousel {
 
 .rn-client-style-2 ul {
   padding: 0; }
+/* Add this CSS to your stylesheet */
+.rn-service .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  text-align: center;  /* Center the text within the content vertically */
+}
+
+.rn-service .inner .content {
+  flex-grow: 1;  /* Allow content to grow vertically if needed */
+}
+
+/* Optional: You can also vertically align the icon within its container */
+.rn-service .inner .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*---------------------------
     Pricing Area Styles 
