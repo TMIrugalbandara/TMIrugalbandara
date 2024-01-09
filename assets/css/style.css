@@ -4,7 +4,7 @@
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
+  --color-tertiary: #0c0f12;
   --color-gray: #f6f6f6;
   --color-subtitle: #f9004d;
   --background-color-1: linear-gradient(145deg, #122344, #001c35);
@@ -5181,7 +5181,7 @@ textarea:-ms-input-placeholder {
         border-radius: 6px;
         top: 0;
         left: 0;
-        background: linear-gradient(to right bottom, #212428, #16181c);
+       background: linear-gradient(to right bottom, #011630, #011338);
         opacity: 0;
         z-index: -1; }
       .social-share-style-1 .social-share li a:hover {
@@ -7806,7 +7806,7 @@ xclip
     Header Area Styles 
 -----------------------------*/
 body.template-color-1 {
-  background-color: #020b19; }
+  background-color: #000d23; }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -8215,7 +8215,7 @@ body.template-color-1 {
     width: 375px;
     z-index: 999;
     position: absolute;
-    background: #191b1e;
+    background: #01122b;
     height: 100%;
     height: 100vh;
     display: flex;
@@ -8366,7 +8366,7 @@ body.template-color-1 {
   left: 0px;
   top: 0px;
   border: 0px;
-  background-color: #212428;
+  background-color: #6d7e94;
   position: fixed;
   z-index: 999;
   overflow: auto;
@@ -8667,8 +8667,8 @@ button.rn-btn {
 a.rn-btn,
 button.rn-btn {
   border-radius: 6px;
-  background: linear-gradient(145deg, #1e2024, #23272b);
-  box-shadow: var(--shadow-1);
+  background:  #033b74;
+  
   transition: var(--transition);
   position: relative;
   z-index: 2;
@@ -8685,7 +8685,7 @@ button.rn-btn {
     border-radius: 6px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    background: linear-gradient(to right bottom, #286fcc, #204da6);
     opacity: 0;
     z-index: -1; }
   a.rn-btn:hover,
@@ -9227,7 +9227,7 @@ figcaption {
           border-radius: 6px;
           top: 0;
           left: 0;
-          background: linear-gradient(to right bottom, #212428, #16181c);
+          background: linear-gradient(to right bottom, #011630, #011338);
           opacity: 0;
           z-index: -1; }
         .slide .social-share-inner-left .social-share li a svg {
@@ -10090,7 +10090,7 @@ figcaption {
     border-radius: 10px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    background: linear-gradient(to right bottom, #011630, #011338);
     opacity: 0;
     z-index: -1; }
   .rn-service:hover .inner .content .title {
@@ -10125,7 +10125,7 @@ body.modal-open {
 
 .modal {
   z-index: 99999999;
-  background: #212428;
+  background: #000b19;
   padding: 60px 15px !important; }
   .modal.modal-boxed-home {
     width: calc(100% - 50px) !important;
@@ -10478,7 +10478,7 @@ div#featured-project-carousel {
 
 .personal-experience-inner .experience-list {
   padding-left: 31px;
-  border-left: 5px solid #17191c; }
+  border-left: 5px solid #022b69; }
   @media only screen and (max-width: 767px) {
     .personal-experience-inner .experience-list {
       padding-left: 27px; } }
@@ -10515,7 +10515,7 @@ div#featured-project-carousel {
       border-radius: 6px;
       top: 0;
       left: 0;
-      background: linear-gradient(to right bottom, #212428, #16181c);
+      background: linear-gradient(to right bottom, #011630, #011338);
       opacity: 0;
       z-index: -1; }
     .personal-experience-inner .experience-list .resume-single-list .inner::after {
@@ -10523,7 +10523,7 @@ div#featured-project-carousel {
       content: "";
       width: 20px;
       height: 20px;
-      border: 5px solid #17191c;
+      border: 5px solid #022b69;
       border-radius: 100%;
       right: 104%;
       top: 55px;
@@ -10544,7 +10544,7 @@ div#featured-project-carousel {
       right: 100%;
       top: 63px;
       transform: translateY(-7px);
-      background: #1b1c1d;
+      background: #021b34;
       z-index: 0; }
       @media only screen and (max-width: 479px) {
         .personal-experience-inner .experience-list .resume-single-list .inner::before {
@@ -10604,7 +10604,7 @@ div#featured-project-carousel {
     .personal-experience-inner .experience-list .resume-single-list .inner.psudo-after-none::before {
       display: none; }
     .personal-experience-inner .experience-list .resume-single-list:hover {
-      background: #212427; }
+      background: #547ca4; }
       .personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .title h4 {
         color: var(--color-white); }
       .personal-experience-inner .experience-list .resume-single-list:hover .inner .heading .date-of-time span {
@@ -12859,7 +12859,7 @@ div#featured-project-carousel {
     border-radius: 20px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right bottom, #212428, #16181c);
+    background: linear-gradient(to right bottom, #011630, #011338);
     opacity: 0;
     z-index: -1; }
   .rn-portfolio:hover::before,
